@@ -189,7 +189,7 @@ public class ResourceCentre {
 	}
 
 	public static Chromebook inputChromebook() {
-		String tag = Helper.readString("Enter asset tag > ");
+		String tag = Helper.readString("Enter asset tag : ");
 		String description = Helper.readString("Enter description > ");
 		String os = Helper.readString("Enter operating system > ");
 
