@@ -1,3 +1,4 @@
+package c206_L10;
 
 public class Camcorder extends Item{
 	private int opticalZoom;
