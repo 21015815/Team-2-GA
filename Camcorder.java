@@ -1,21 +1,21 @@
 package c206_L10;
 
 public class Camcorder extends Item{
-	private int opticalZoom;
+	private int optical_Zoom;
 
-	public Camcorder(String assetTag, String description, int opticalZoom) {
+	public Camcorder(String assetTag, String description, int optical_Zoom) {
 		super(assetTag, description);
-		this.opticalZoom = opticalZoom;
+		this.optical_Zoom = optical_Zoom;
 	}
 
-	public int getOpticalZoom() {
-		return opticalZoom;
+	public int getOptical_Zoom() {
+		return optical_Zoom;
 	}
 	
 	public String toString(){ 
 		// Write your codes here
 		String output = super.toString();
-		output = String.format("%-63s %-20d", output,opticalZoom); 
+		output = String.format("%-63s %-20d", output,optical_Zoom); 
 		return output;
 	}
 }
